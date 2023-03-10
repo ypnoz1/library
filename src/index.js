@@ -1,5 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from 'react-dom/client';
 import ButtonLogin from './components/button/login/ButtonLogin'
 
-ReactDOM.render(<div>Hello world <ButtonLogin /></div>, document.getElementById("root"));
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(<div>Hello world <ButtonLogin /></div>);
