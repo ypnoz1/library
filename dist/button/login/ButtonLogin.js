@@ -1,8 +1,7 @@
 import React from "react";
 import './ButtonLogin.css';
-function ButtonLogin() {
+export function ButtonLogin() {
   return /*#__PURE__*/React.createElement("button", {
     className: "btn-login"
   }, "Login");
 }
-export default ButtonLogin;
