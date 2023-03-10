@@ -1,6 +1,6 @@
 {
-  "name": "lib",
-  "version": "0.1.2",
+  "name": "@inter/lib",
+  "version": "0.1.3",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "repository": {
