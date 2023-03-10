@@ -1,3 +1,4 @@
+import React from "react";
 import './ButtonSignUp.css';
 function ButtonSignUp() {
   return /*#__PURE__*/React.createElement("button", {
